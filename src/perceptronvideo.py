@@ -68,16 +68,16 @@ def main():
     print(yTeste, data[2][2])
     print()
 
-    #Exemplo Felipe Neto
-    print("----------------------------------")
-    yTeste = prediction([10.0 / 100, 1.0 / 100, 0], w, b)
-    print("Exemplo Felipe Neto.: " + str(abs(yTeste)))
-    #Exemplo Pirula
-    yTeste = prediction([30.0 / 100, 0.5 / 100, 0], w, b)
-    print("Exemplo Pirula......: " + str(abs(yTeste)))
-    #Exemplo Castanhari
-    yTeste = prediction([20.0 / 100, 9.0 / 100, 0], w, b)
-    print("Exemplo Castanhari..: " + str(abs(yTeste)))
+    #Exemplo Carlos Eduardo
+    print("--------------------------------------")
+    yTeste = prediction([ 5.0 / 100, 2.0 / 100, 0], w, b)
+    print("Exemplo Carlos Eduardo..: " + str(abs(yTeste)))
+    #Exemplo Fernanda
+    yTeste = prediction([10.0 / 100, 1.5 / 100, 0], w, b)
+    print("Exemplo Fernanda........: " + str(abs(yTeste)))
+    #Exemplo Mestre de obra
+    yTeste = prediction([15.0 / 100, 4.0 / 100, 0], w, b)
+    print("Exemplo Mestre de obra..: " + str(abs(yTeste)))
     print()
 
 if __name__ == "__main__":
